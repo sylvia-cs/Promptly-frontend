@@ -1,0 +1,268 @@
+.backgroundChatIcon {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: scale(1.774);
+}
+.wrapperBackgroundChat {
+  height: 936px;
+  width: 936px;
+  position: absolute;
+  margin: 0 !important;
+  right: -138px;
+  bottom: -1590.9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
+}
+.lineRoundedlightningIcon {
+  height: 12px;
+  width: 12px;
+  position: relative;
+}
+.buttonText {
+  position: relative;
+  line-height: 130%;
+  font-weight: 500;
+}
+.tokenCounter {
+  width: 93px;
+  border-radius: var(--badges-small) var(--badges-small) 0 0;
+  background-color: var(--sections-bg-color-1);
+  border: 1px solid var(--cards-borders-br-color-1);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding: var(--padding-9xs) var(--padding-8xs);
+  gap: var(--badges-gaps-gap-small);
+  white-space: nowrap;
+}
+.tokensCounterWrapper {
+  display: none;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 0 var(--padding-5xl) 0 0;
+  z-index: 1;
+}
+.divider,
+.placeholder {
+  align-self: stretch;
+  position: relative;
+}
+.placeholder {
+  height: 68px;
+  line-height: 150%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.divider {
+  height: 1px;
+  border-top: 1px solid var(--cards-borders-br-color-1);
+  box-sizing: border-box;
+}
+.lineRoundedbookIcon {
+  height: 12px;
+  width: 12px;
+  position: relative;
+}
+.buttonText1 {
+  position: relative;
+  line-height: 130%;
+  font-weight: 500;
+}
+.lineRoundedarrowRigth {
+  height: 10px;
+  width: 10px;
+  position: relative;
+  display: none;
+}
+.secondaryButton {
+  height: 34px;
+  box-shadow: var(--neutral-bs-small);
+  border-radius: var(--buttons-regular);
+  background-color: var(--sections-bg-color-2);
+  border: 1px solid var(--cards-borders-br-color-1);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--buttons-paddings-pd-small) var(--buttons-paddings-pd-regular);
+  gap: var(--buttons-gaps-gap-small);
+}
+.lineRoundedgridIcon,
+.lineRoundedmicrophoneIcon,
+.lineRoundedpaperclipIcon,
+.lineRoundedphotoIcon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  min-height: 16px;
+}
+.leftActionIcons,
+.textMessageLeft {
+  flex-direction: row;
+  align-items: center;
+}
+.leftActionIcons {
+  display: flex;
+  justify-content: flex-end;
+  gap: var(--default-gaps-default-gaps-gap-default);
+}
+.textMessageLeft {
+  height: 32px;
+  display: none;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+}
+.divider1,
+.filledsendIcon {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  flex-shrink: 0;
+}
+.divider1 {
+  height: 22.4px;
+  width: 1px;
+  border-right: 1px solid var(--sections-bg-color-1);
+  box-sizing: border-box;
+  opacity: 0.2;
+}
+.lineRoundedchevronDown {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  flex-shrink: 0;
+}
+.buttonChat {
+  height: 34px;
+  width: 76px;
+  box-shadow: var(--button-primary);
+  border-radius: var(--buttons-regular);
+  background: linear-gradient(180deg, #2b7afb, #2174fd, #213bfd);
+  border: 1px solid var(--buttons-border-primary-gradient);
+  box-sizing: border-box;
+  overflow-x: auto;
+  flex-shrink: 0;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--buttons-paddings-pd-small) var(--padding-3xs);
+  gap: var(--gap-5xs);
+}
+.filledsendIcon1 {
+  height: 12px;
+  width: 12px;
+  position: relative;
+}
+.buttonText2 {
+  position: relative;
+  font-size: var(--display-1-medium-size);
+  line-height: 16px;
+  font-weight: 500;
+  font-family: var(--display-1-medium);
+  color: var(--sections-bg-color-1);
+  text-align: center;
+  display: inline-block;
+  min-width: 85px;
+}
+.lineRoundedarrowRigth1 {
+  height: 10px;
+  width: 10px;
+  position: relative;
+  display: none;
+}
+.primaryButton {
+  box-shadow: var(--button-primary);
+  border-radius: var(--buttons-regular);
+  background: linear-gradient(180deg, #2b7afb, #2174fd, #213bfd);
+  border: 1px solid var(--buttons-border-primary-gradient);
+  justify-content: center;
+  padding: var(--padding-7xs) var(--padding-mini);
+  gap: var(--buttons-gaps-gap-small);
+}
+.actions,
+.bottomActions,
+.primaryButton {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.actions {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  justify-content: flex-end;
+  gap: var(--default-gaps-default-gaps-gap-medium);
+}
+.bottomActions {
+  align-self: stretch;
+  justify-content: center;
+  gap: var(--gap-89xl-5);
+  text-align: center;
+  font-size: var(--display-1-medium-size);
+  color: var(--buttons-secondary-text-text-light-mode);
+}
+.boxWrapper,
+.chatBodyWrapper,
+.containerDefault,
+.promptBox {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.boxWrapper {
+  flex: 1;
+  box-shadow: var(--neutral-bs-regular);
+  border-radius: var(--inputs-select-regular);
+  background-color: var(--sections-bg-color-1);
+  border: 1px solid var(--cards-borders-br-color-1);
+  box-sizing: border-box;
+  flex-direction: column;
+  padding: var(--padding-3xl) var(--padding-4xl) var(--padding-sm);
+  gap: var(--gap-base-5);
+  text-align: left;
+  font-size: var(--paragraph-default-regular-size);
+}
+.chatBodyWrapper,
+.containerDefault,
+.promptBox {
+  flex-direction: row;
+}
+.containerDefault,
+.promptBox {
+  flex: 1;
+}
+.chatBodyWrapper {
+  align-self: stretch;
+  padding: var(--padding-21xl) var(--padding-31xl-5);
+  box-sizing: border-box;
+  position: relative;
+  text-align: center;
+  font-size: var(--display-1-medium-size);
+  color: var(--inputs-select-text-text-neutral);
+  font-family: var(--display-1-medium);
+}
+@media screen and (max-width: 975px) {
+  .chatBodyWrapper {
+    padding-left: var(--padding-6xl);
+    padding-right: var(--padding-6xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .containerDefault {
+    gap: var(--default-gaps-default-gaps-gap-extra-large);
+  }
+}
